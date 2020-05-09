@@ -25,6 +25,7 @@ if [[ -d ~/.dotfiles/zsh ]]; then
   fpath+=(~/.dotfiles/zsh)
 fi
 
+autoload -Uz _pip_completion && _pip_completion
 autoload -Uz set_up_vcs_info && set_up_vcs_info
 
 autoload -Uz compinit && compinit
