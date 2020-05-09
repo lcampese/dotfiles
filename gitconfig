@@ -1,0 +1,12 @@
+[user]
+	name = Luca Campese
+	email = lcampese@posteo.net
+[core]
+	editor = vim
+[alias]
+	br = branch
+	ci = commit
+	co = checkout
+	di = diff --staged
+	st = status
+	unstage = reset HEAD --
