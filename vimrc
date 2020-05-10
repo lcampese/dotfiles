@@ -49,6 +49,8 @@ nnoremap <C-K> <C-W>k
 nnoremap <C-L> <C-W>l
 nnoremap <Tab> <C-W><C-W>
 
+nnoremap <Leader>f :Files<CR>
+
 nnoremap <silent> <Leader>s :set spell!<CR>
 
 " Spelling
