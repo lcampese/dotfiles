@@ -12,6 +12,7 @@ PROMPT='%(?.%F{green}0%f.%F{red}%?%f) %n@%m %B%1~%b %# '
 
 # Aliases
 alias ..='cd ..'
+alias cl='clear'
 alias g='git'
 alias ll='ls -alFG'
 alias mkdir='mkdir -p'
