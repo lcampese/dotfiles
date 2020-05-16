@@ -18,7 +18,6 @@ alias ll='ls -alFG'
 alias mkdir='mkdir -p'
 
 alias dotfiles='cd ~/.dotfiles'
-alias fappr='cd ~/Developer/fappr'
 
 # Functions
 if [[ -d ~/.dotfiles/zsh ]]; then
