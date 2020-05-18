@@ -8,5 +8,7 @@
 	ci = commit
 	co = checkout
 	di = diff --staged
+	last = log -1
+	lo = log --oneline --graph
 	st = status
 	unstage = reset HEAD --
