@@ -10,6 +10,8 @@ setopt CORRECT_ALL
 # Variables
 PROMPT='%(?.%F{green}0%f.%F{red}%?%f) %n@%m %B%1~%b %# '
 
+export PASSWORD_STORE_GENERATED_LENGTH=12
+
 # Aliases
 alias ..='cd ..'
 alias cl='clear'
