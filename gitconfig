@@ -7,6 +7,11 @@
 	tool = vimdiff
 [difftool]
 	prompt = false
+[merge]
+	tool = vimdiff
+[mergetool]
+	keepBackup = false
+	prompt = false
 [alias]
 	br = branch
 	ci = commit
