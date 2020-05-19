@@ -3,6 +3,10 @@
 	email = lcampese@posteo.net
 [core]
 	editor = vim
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = false
 [alias]
 	br = branch
 	ci = commit
