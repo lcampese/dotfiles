@@ -10,6 +10,7 @@ nnoremap <C-L> <C-W>l
 nnoremap <Tab> <C-W><C-W>
 
 nnoremap <Leader>d :action GotoDeclaration<CR>
+nnoremap <Leader>f :action GotoFile<CR>
 nnoremap <Leader>l :action SelectInProjectView<CR>
 nnoremap <Leader>r :action ChooseRunConfiguration<CR>
 nnoremap <Leader>u :action ShowUsages<CR>
