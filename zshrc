@@ -19,6 +19,7 @@ alias g='git'
 alias ll='ls -alFG'
 alias mkdir='mkdir -p'
 
+alias dev='cd ~/Developer'
 alias dotfiles='cd ~/.dotfiles'
 
 # Functions
