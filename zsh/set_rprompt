@@ -1,0 +1,6 @@
+autoload -Uz vcs_info
+precmd_functions+=(vcs_info)
+
+setopt PROMPT_SUBST
+RPROMPT='%B${vcs_info_msg_0_}%b'
+zstyle ':vcs_info:git:*' formats '%b'
