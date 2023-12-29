@@ -1,0 +1,19 @@
+[user]
+	name = Luca Campese
+	email = me@lcampese.net
+	signingkey = ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILjdMpFeVALjgSfN6ldsUCXDny5pqDASb/rYKY9l40X6
+[core]
+	editor = vim
+[alias]
+	br = branch
+	ch = checkout
+	co = commit
+	di = diff --staged
+	st = status
+[commit]
+	gpgsign = true
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+	allowedSignersFile = ~/.dotfiles/allowed_signers
