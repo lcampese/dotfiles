@@ -11,10 +11,10 @@ Plug 'tpope/vim-sensible'
 call plug#end()
 
 " Appearance
-colorscheme zenburn
 set colorcolumn=+1
 set list
 set number
+silent! colorscheme zenburn
 
 " Behavior
 set ignorecase
