@@ -12,4 +12,7 @@ alias g='git'
 alias l='ls -alFG'
 
 # Other
+if type brew &>/dev/null; then
+  fpath+=($(brew --prefix)/share/zsh/site-functions)
+fi
 autoload -Uz compinit && compinit
