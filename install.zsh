@@ -9,3 +9,5 @@ ln -s ~/.dotfiles/gitconfig ~/.gitconfig
 ln -s ~/.dotfiles/vimrc ~/.vimrc
 ln -s ~/.dotfiles/vim ~/.vim
 vim -c PlugInstall -c qall
+
+ln -s ~/.dotfiles/ideavimrc ~/.ideavimrc
