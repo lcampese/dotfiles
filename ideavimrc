@@ -1,3 +1,6 @@
+" Plugins
+Plug 'easymotion/vim-easymotion'
+
 " Behavior
 set ideajoin
 
@@ -13,3 +16,5 @@ nnoremap <Tab> <C-W><C-W>
 
 nmap <Leader>r <Action>(RenameElement)
 nmap <Leader>s <Action>(SelectInProjectView)
+
+nmap s <Plug>(easymotion-s)
