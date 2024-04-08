@@ -14,7 +14,9 @@ nnoremap <C-K> <C-W>k
 nnoremap <C-L> <C-W>l
 nnoremap <Tab> <C-W><C-W>
 
+nmap s <Plug>(easymotion-s)
+
+nmap <Leader>d <Action>(GotoDeclaration)
+nmap <Leader>i <Action>(ShowHoverInfo)
 nmap <Leader>r <Action>(RenameElement)
 nmap <Leader>s <Action>(SelectInProjectView)
-
-nmap s <Plug>(easymotion-s)
